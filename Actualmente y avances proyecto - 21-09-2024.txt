@@ -1,0 +1,15 @@
+Actualmente:
+Realizando pruebas unitarias a los servicios:
+ruta:
+C:\xampp\htdocs\laravel\capadatos-app
+
+Comando que se corre:
+php artisan test
+
+
+
+Avances Tonala:
+
+Creación de Controladores, Servicios y UseCases además de actualización AppServiceProvider
+
+
