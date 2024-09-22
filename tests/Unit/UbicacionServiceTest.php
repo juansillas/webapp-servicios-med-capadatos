@@ -3,7 +3,7 @@
 namespace Tests\Unit\Services;
 
 use Tests\TestCase;
-use App\Services\UbicacionService;
+use App\Application\Services\UbicacionService;
 use App\Repositories\Contracts\UbicacionActualRepositoryInterface;
 use Mockery;
 

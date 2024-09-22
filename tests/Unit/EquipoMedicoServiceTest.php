@@ -3,7 +3,7 @@
 namespace Tests\Unit\Services;
 
 use Tests\TestCase;
-use App\Services\EquipoMedicoService;
+use App\Application\Services\EquipoMedicoService;
 use App\Repositories\Contracts\EquipoMedicoRepositoryInterface;
 use Mockery;
 

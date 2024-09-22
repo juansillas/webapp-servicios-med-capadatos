@@ -3,7 +3,7 @@
 namespace Tests\Unit\Services;
 
 use Tests\TestCase;
-use App\Services\HistorialMedicoService;
+use App\Application\Services\HistorialMedicoService;
 use App\Repositories\Contracts\HistorialMedicoRepositoryInterface;
 use Mockery;
 

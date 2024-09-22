@@ -3,7 +3,7 @@
 namespace Tests\Unit\Services;
 
 use Tests\TestCase;
-use App\Services\PacienteService;
+use App\Application\Services\PacienteService;
 use App\Repositories\Contracts\PacienteRepositoryInterface;
 use App\Repositories\Contracts\HistorialMedicoRepositoryInterface;
 use App\Repositories\Contracts\UbicacionActualRepositoryInterface;

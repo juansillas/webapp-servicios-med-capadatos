@@ -3,7 +3,7 @@
 namespace Tests\Unit\Services;
 
 use Tests\TestCase;
-use App\Services\CamaService;
+use App\Application\Services\CamaService;
 use App\Repositories\Contracts\CamaRepositoryInterface;
 use Mockery;
 

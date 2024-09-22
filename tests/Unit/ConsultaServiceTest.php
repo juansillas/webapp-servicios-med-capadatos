@@ -3,7 +3,7 @@
 namespace Tests\Unit\Services;
 
 use Tests\TestCase;
-use App\Services\ConsultaService;
+use App\Application\Services\ConsultaService;
 use App\Repositories\Contracts\ConsultaRepositoryInterface;
 use Mockery;
 
