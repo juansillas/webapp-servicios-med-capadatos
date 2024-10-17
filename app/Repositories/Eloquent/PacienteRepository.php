@@ -12,6 +12,11 @@ class PacienteRepository extends BaseRepository implements PacienteRepositoryInt
         parent::__construct($model);
     }
 
+    public function create(array $data)
+    {
+        return Paciente::create($data);
+    }
+
     public function findByNombreApellido($nombre, $apellido)
     {
         return $this->model->where('nombre', $nombre)

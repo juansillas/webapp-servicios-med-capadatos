@@ -42,4 +42,9 @@ class PacienteService
     }
 
     // Más métodos que encapsulan la lógica de negocio...
+    // Método para crear un paciente
+    public function crearPaciente(array $data)
+    {
+        return $this->pacienteRepository->create($data);
+    }
 }

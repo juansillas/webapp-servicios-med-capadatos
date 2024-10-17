@@ -1,4 +1,42 @@
 Actualmente:
+17-10-2024
+
+Corrección todo lo de pacientes:
+1.Archivo de Rutas: routes/api.php
+2.Controlador de Pacientes: app/Http/Controllers/PacienteController.php
+3.Caso de Uso: app/Application/UseCases/RegisterPaciente.php
+4.Servicio de Pacientes: app/Application/Services/PacienteService.php
+5.Interfaz del Repositorio de Pacientes: app/Repositories/Contracts/PacienteRepositoryInterface.php
+6.Repositorio de Pacientes: app/Repositories/Eloquent/PacienteRepository.php
+7.Modelo de Pacientes: app/Models/Paciente.php
+8.Migración de la Tabla pacientes: database/migrations/YYYY_MM_DD_create_pacientes_table.php
+9.Archivo de Vinculación: app/Providers/AppServiceProvider.php
+10.Verificar la Base de Datos
+
+Pero no pude proseguir a la migración - paso 8 debido a que tiene Vinculación con Historial Médico
+
+POR LO CUAL LO SIGUIENTES PASOS SON:
+Archivo de Rutas: routes/api.php
+Controlador de Historial Médico: app/Http/Controllers/HistorialMedicoController.php
+Caso de Uso: app/Application/UseCases/RegisterHistorialMedico.php
+Servicio de Historial Médico: app/Application/Services/HistorialMedicoService.php
+Interfaz del Repositorio de Historial Médico: app/Repositories/Contracts/HistorialMedicoRepositoryInterface.php
+Repositorio de Historial Médico: app/Repositories/Eloquent/HistorialMedicoRepository.php
+Modelo de Historial Médico: app/Models/HistorialMedico.php
+Migración de la Tabla historiales_medicos: database/migrations/YYYY_MM_DD_create_historiales_medicos_table.php
+Archivo de Vinculación: app/Providers/AppServiceProvider.php
+Verificar la Base de Dato
+
+______________________
+
+Eliminé las migraciones.
+Considerando recrear la DB con los modelos. Revisar que el script y los modelos coincidan
+
+Crear de nuevo las migraciones si se llegan a corregir los Modelos.
+
+Falta testear los Controllers de la Capa de Datos:
+
+_________________________
 Realizando pruebas unitarias a los servicios:
 ruta:
 C:\xampp\htdocs\laravel\capadatos-app

@@ -12,7 +12,12 @@ class Paciente extends Model
     protected $table = 'pacientes';
 
     protected $fillable = [
-        'nombre', 'apellido', 'fecha_nacimiento', 'estado'
+        'nombre',
+        'apellido',
+        'fecha_nacimiento',
+        'estado',
+        'historial_medico_id',
+        'ubicacion_actual_id'
     ];
 
     public function historialMedico()
