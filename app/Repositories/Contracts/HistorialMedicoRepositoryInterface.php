@@ -2,8 +2,8 @@
 
 namespace App\Repositories\Contracts;
 
-interface HistorialMedicoRepositoryInterface extends BaseRepositoryInterface
+interface HistorialMedicoRepositoryInterface
 {
-    public function getByPacienteId($pacienteId);
-    public function getRecentHistorialMedico($pacienteId, $limit);
+    public function create(array $data);
 }
+
